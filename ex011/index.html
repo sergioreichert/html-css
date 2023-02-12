@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir estas imagens em diversos dispositivos.</p>
+    <p>Nessa aula vamos aprender a fazer nossas imagens do site serem responsivos. temos que priorizar a experiencia do
+        usuário</p>
+    <p>Usando a tag &lt;picture&gt;.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/img-m.png" type="image/png">
+        <img src="img/img-g.png" alt="Imagem flexível">
+    </picture>
+    <p>Note que o texto já está responsivo.</p>
+    <!--Tentar configurar a imagem usando a tag source com as predefinições originais-->
+    <h1>Agora vamos reproduzir áudios</h1>
+    <p>Vamos aprender a reproduzir áudios, só precisa de códigos HTML5</p>
+    <audio src="midia/happy-mistake.mp3" controls loop></audio>
+    <p>
+        <audio preload="metadata" autoplay controls>
+            <!--Oparametro autoplay é para carregar o soite tocando a mídia-->
+            <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+            <source src="midia/guanacast-33.ogg" type="audio/ogg">
+            <source src="midia/guanacast-33.wav" type="audio/wav">
+            <p>Infelizmente se seu navegador não for compatível e não conseguir reproduzir o áudio. <a
+                    href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="application/mp3"> <br>Clique aqui
+                    para fazer o download do arquivo.</a></p>
+            <!--Se aplicar o texto sem a tag p, mas com a "source" o texto desaparece e julgo que apareceria se não fosse possível carregar os arquivos-->
+
+
+        </audio>
+    </p>
+
+</body>
+
+</html>

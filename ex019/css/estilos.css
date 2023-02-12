@@ -1,0 +1,33 @@
+/* seletores id=# e de class=. */
+body {
+    background-color: rgb(83, 235, 184);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: rgb(96, 196, 2);
+    color: rgb(57, 2, 255);
+    text-align: right;
+}
+
+#principal {
+    background-color: rgb(255, 251, 0);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(127, 219, 255);
+}
+
+.basico {
+    color: green;
+}
+.intermediario {
+    color: yellow;
+}
+.avancado {
+    color: red;
+}
+.texte {
+    background-color: black;
+}

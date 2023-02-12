@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas de por vídeos em sites</title>
+</head>
+<body>
+    <h1>Vídeos</h1>
+    <h2>Vídeos hospedados no próprio site</h2>
+    <p>Embora não seja recomendado, pois aumenta o trafego de dados,vamos aprender mesmo assim.</p>
+    <p>Foi dado uma ferramenta para fazer conversão dos arquivos de vídeo, mas pode-se usar conversores on-line.</p>
+    <video src="midia/meu-video.mp4"width="500" controls></video><!--O parâmetro width só muda o frame do vídeo-->
+    <p>O parâmetro "width" muda apenas o frame do vídeo, não muda o tamanho do arquivo.</p>
+    <video width="450" poster="img/limoes-capa.png" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>Se seu navegador não for compatível com o vídeo faça o download <a href="midia/meu-video.mp4" download="meu-video.mp4" type="application/mp4">aqui.</a></p>
+    </video>
+    <p>Se seu navegador não for compatível com o vídeo faça o download <a href="midia/meu-video.mp4" download="meu-video.mp4" type="application/mp4">aqui.</a></p>
+    <h2>Inserir vídeos hospedados em outros sites</h2>
+    <p>Esta é uma ótima solução para por vídeos em seus sites.</p>
+    <iframe width="450" height="252" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Se usar vídeos hospedados no YouTube, isso também ajuda o mecanismo de busca a encontrar seu site.</p>
+    <p>Você (de preferência) tenha um canal no YouTube para postar vídeos.</p>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: grey;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        header{
+            background-color: white;
+            padding: 3px;
+            margin-bottom: 8px;
+        }
+        nav{
+            background-color: rgb(211, 216, 216);
+            padding: 3px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(20, 20, 4);
+            margin-right: 30px;
+        }
+        main{
+            background-color: white;
+            padding: 3px;
+            margin-bottom: 8px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+        }
+        aside{
+            background-color: aliceblue;
+        }
+        h3{
+            background-color: rgb(212, 205, 205);
+            padding: 3px;       
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Tecnologias</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit numquam nulla perferendis esse dignissimos optio ex molestias officiis reiciendis ullam debitis nihil nobis vero, rem iste in corrupti officia? Et!</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero ullam expedita cupiditate fugit iure ducimus similique ratione, deserunt odit perferendis fugiat accusamus aliquam iusto quae hic ipsa repudiandae nobis?</p>
+                <aside>
+                    <h3>Artigo do Pedro</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium rerum reprehenderit, esse assumenda earum libero laborum, provident delectus autem totam voluptas iure vitae, ab iusto officiis dignissimos quia veniam nihil.</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+
+    </footer>
+</body>
+</html>
